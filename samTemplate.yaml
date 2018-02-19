@@ -8,7 +8,7 @@ Resources:
       Handler: index.handler
       Runtime: nodejs6.10
       CodeUri: ./
-      TracingConfig: Active
+      Tracing: Active
       Events:
         MyTimeApi:
           Type: Api
